@@ -6,7 +6,25 @@ middleware-cli
 
 middleware-cli is Cli for management middleware DittoNetwork
 
-### Options
+### Install 
+[You must install golang](https://go.dev/doc/install)
+```bash
+go build -o middleware-cli
+
+```
+
+### Usage
+
+```bash
+middleware-cli [Method] [Options] [General Options]
+```
+
+or
+```bash
+go run main.go [Method] [Options] [General Options]
+```
+
+### General options
 
 ```
   -h, --help                 help for middleware-cli
